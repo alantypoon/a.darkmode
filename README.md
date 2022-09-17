@@ -24,6 +24,6 @@ If it is not a AdminLTE 3 project, add the following too:
 Refer to the demo.html for a demonstration with Bootstrap 4 test page.
 
 
-![alt text](https://github.com/alantypoon/a.darkmode/edit/main/images/mode-light.png?raw=true)
+![alt text](https://github.com/alantypoon/a.darkmode/blob/main/images/mode-light.png?raw=true)
 
-![alt text](https://github.com/alantypoon/a.darkmode/edit/main/images/mode-dark.png?raw=true)
+![alt text](https://github.com/alantypoon/a.darkmode/blob/main/images/mode-dark.png?raw=true)
