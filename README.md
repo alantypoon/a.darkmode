@@ -13,12 +13,12 @@ In the body of the web page, add the following:
 ```
 In the head of the web page, add the following:
 ```
-	<script src="a.darkmode.js"></script>
-	<link href="a.darkmode.css" type="text/css" rel="stylesheet">
+    <script src="a.darkmode.js"></script>
+    <link href="a.darkmode.css" type="text/css" rel="stylesheet">
 ```
 If it is not a AdminLTE 3 project, add the following too:
 ```
-	<link href="a.darkmode-custom.css" type="text/css" rel="stylesheet">
+    <link href="a.darkmode-custom.css" type="text/css" rel="stylesheet">
 ```
 ## Demo page
 
