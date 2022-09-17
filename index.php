@@ -15,9 +15,9 @@
 	<meta name="theme-color" content="#ffffff">
 	<noscript>Your browser does not support JavaScript!</noscript>
 
-	<script src="external/jquery-3.6.0.min.js"></script>
+	<!-- <script src="external/jquery-3.6.0.min.js"></script> -->
 	<link href="external/bootstrap.min.css" type="text/css" rel="stylesheet">
-	<script src="external/bootstrap.min.js"></script>	
+	<!-- <script src="external/bootstrap.min.js"></script>	 -->
 
 	<script src="a.darkmode.js"></script>
 	<link href="a.darkmode.css" type="text/css" rel="stylesheet">
