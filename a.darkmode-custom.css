@@ -1,0 +1,109 @@
+  
+.dark-mode{
+  transition: .5s;
+  background-color: #555 !important;
+  color: #ccc !important;
+}
+  
+.dark-mode,
+.dark-mode input,
+.dark-mode select,
+.dark-mode textarea,
+.dark-mode .div_ugform_body
+{
+  background-color: #111 !important;
+  color: #eee !important;
+}
+
+.dark-mode .bg-light {
+  background-color: #333 !important;
+}
+
+.dark-mode .bg-white {
+  background-color: #000 !important;
+}
+
+.dark-mode .bg-black {
+  background-color: #eee !important;
+}
+.dark-mode .div_ugform_head{
+  background-color: #001e4c !important;
+}
+
+.dark-mode .dataTable td,
+.dark-mode .dataTable tr.odd td
+{
+  background-color: #333 !important;
+  color: white;
+}
+.dark-mode .dataTable tr.even td{
+  background-color: #444 !important;
+  color: white;
+}
+.dark-mode .dataTable thead th{
+  background-color: #666;
+  color: white;
+}
+
+.dark-mode .uploader_droparea{
+  border: 2px dashed #006787;
+  background-color: #002d4c !important;
+}
+.dark-mode .instructions_accepted_exts{
+  color: #ccc;
+}
+.dark-mode .endorsestep{
+  background-color: #82544a;
+}
+.dark-mode .endorsestep:last-child{
+  background-color: #b9766a;
+}
+.dark-mode .endorse_action{
+  color:  white;
+  font-weight: bold;
+}
+.dark-mode .endorsedate{
+  color:black;
+}
+.dark-mode .input-group-addon{
+  width: 30px;
+  border: 1px solid #e0e0e0;
+  vertical-align: middle;
+  text-align: center;
+  padding-top: 7px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  background-color: #808080;
+  color: #404040;
+}
+.dark-mode .dropdown-menu{
+  background-color: black;
+  border:1px solid white;
+}
+
+
+.dark-mode .btn{
+  border-color: black !important;
+}
+.dark-mode .btn-primary{
+  background-image: linear-gradient(to bottom, #5050c0, #5050a0);
+}
+.dark-mode .btn-primary:hover{
+  background-image: linear-gradient(to bottom, #5050c0, #5050a0);
+}
+.dark-mode .btn-primary:focus{
+  background-image: linear-gradient(to bottom, #5050c0, #5050a0);
+}
+.dark-mode .btn-warning{
+  color: white !important;
+}
+
+.dark-mode .modal-content
+{
+  background-color: black !important;
+  border:1px solid white;
+}
+
+.dark-mode a{
+    color: lightblue !important;
+}
