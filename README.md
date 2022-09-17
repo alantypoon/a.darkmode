@@ -8,9 +8,9 @@ This project supports Bootstrap 4, AdmLTE 3 or customized page.
 ## Installation
 
 In the body of the web page, add the following:
-
+```
     <div class="mode-switch"></div>
-
+```
 In the head of the web page, add the following:
 ```
 	<script src="a.darkmode.js"></script>
