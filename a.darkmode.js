@@ -4,8 +4,12 @@
 //
 
 document.ready = function (callback) {
-    // FF,Google
-    if (document.addEventListener) {
+    // debugger;
+    if (document.readyState == "complete") {
+        // complete?
+        callback();
+    } else if (document.addEventListener) {
+        // DOMContentLoaded event
         document.addEventListener('DOMContentLoaded', function () {
             document.removeEventListener('DOMContentLoaded', arguments.callee, false);
             callback();
@@ -14,10 +18,10 @@ document.ready = function (callback) {
     // IE
     else if (document.attachEvent) {
         document.attachEvent('onreadystatechange', function () {
-              if (document.readyState == "complete") {
-                        document.detachEvent("onreadystatechange", arguments.callee);
-                        callback();
-               }
+            if (document.readyState == "complete") {
+                document.detachEvent("onreadystatechange", arguments.callee);
+                callback();
+            }
         })
     }
     // others
@@ -26,8 +30,11 @@ document.ready = function (callback) {
     }
 }
 
+// debugger;
+
 // anonymous function
 document.ready(function(){
+    // debugger;
 
     // create mode switch
     var els = document.getElementsByClassName('mode-switch');
